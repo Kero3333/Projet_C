@@ -14,5 +14,5 @@ int main(void)
     scanf("%f", &longBC);
 
     float longAC = sqrt((longAB*longAB)+(longBC*longBC)); //on calcule la longueur de AC en usant du théorème de Pythagore
-    printf("la longueur de AC est de %.2f cm\n", longAC); //on affiche au centième près la longueur de AC
+    printf("la longueur de l'hypoténuse est de %.2f cm\n", longAC); //on affiche au centième près la longueur de AC
 }
